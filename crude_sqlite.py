@@ -5,6 +5,7 @@ def conectar_banco():
     conexao = sqlite3.connect('exemplo.db') #Nome do banco de dados
     return conexao 
 
+
 #Criar tabela no novo banco exemplo.db
 def criar_tabela():
     conexao = conectar_banco()
