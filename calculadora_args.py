@@ -1,5 +1,6 @@
 #Calculadora com múltiplos argumentos
 
+
 class Calculadora:
     def somar(self, *args): #esse asterisco nesse caso significa TUDO, ou seja, nesse caso, todos argumentos que estao dentro dele mesmo - nao indica multiplicacao - nada a ver!!!
         return sum(args)
